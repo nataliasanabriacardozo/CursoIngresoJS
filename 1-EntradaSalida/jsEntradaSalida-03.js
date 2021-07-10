@@ -7,7 +7,8 @@ y luego mostrarlo por 'Alert' al presionar el botón  'mostrar'*/
 function mostrar()
 
 { // primera forma de hacerlo:
-let nombreIngresado;
+var nombreIngresado;
+
 //traemos el valor de la caja de texto desde HTML y con el = se lo asignamos a la variable nombre
 nombreIngresado = document.getElementById("txtIdNombre").value;
 alert("Su nombre es: "+nombreIngresado);
